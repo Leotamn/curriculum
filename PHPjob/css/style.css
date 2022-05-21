@@ -9,14 +9,14 @@
     height: 60px;
     background-color: white;
     display: flex;
-    margin: 20px;
-    padding: 10px;
-    position: absolute;top: 0px;right: 10px;left: 190px;bottom: 20px;
+    position: absolute;top: 20px;right: 20px;left: 220px;bottom: 20px;
 }
 
 .box-red {
         display: flex;
         align-items: flex-end;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     
 
@@ -24,29 +24,24 @@
 .box-1 {
     width: 40px;
     height: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    justify-content: space-around;
+    background-color: #8c2727;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #8c2727;
+
 }
 
 .box-2 {
     width: 40px;
     height: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0px;
+    justify-content: space-around;
+    background-color:  #8c2727;
     margin-right: 10px;
-    background-color: #8c2727;
 }
 .box-3 {
     width: 40px;
     height: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 10px;
+    justify-content: space-around;
     background-color: #8c2727;
 }
 
