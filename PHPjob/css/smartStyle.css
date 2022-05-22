@@ -12,9 +12,13 @@ img {
     height: auto
 ;}
 
-.contents {
-max-width: 479px; 
-width: 100%; 
-margin-left: auto; 
-margin-right: auto;   
+.box-parent {
+    width: 60px;
+    height: 160px;
+    background-color: white;
+    position: absolute;top: auto;right: 70px;left: 70px;bottom: auto;
+}
+
+.flexbox {
+    position: absolute;top: 20px;right: 30px;left: 30px;bottom: 20px;
 }
