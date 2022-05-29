@@ -1,19 +1,18 @@
 <?php
-    $x = 0;
-
-    $x += 5;
-    echo $x;
-
-    $x *= 5;
-    echo $x;
-
-
-    // $x = $x + 1;
-    $x++;
-    echo $x;
-
-    // $x $x + 1;
-    $x--;
-    echo $x;
+    $blood = 'B';
+    if($blood == 'A') {
+        echo 'Aがたです';
+    }   elseif($blood == 'B'){
+        echo 'Bがたです';
+    
+    }   elseif($blood == 'O'){
+        echo 'Oがたです';
+    
+    }   elseif($blood == 'AB'){
+        echo 'ABがたです';
+    
+    }   else {
+        echo 'A/B/O/ABから選択してください';
+    }
 
 ?>
