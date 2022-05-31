@@ -1,18 +1,12 @@
 <?php
-    $blood = 'B';
-    if($blood == 'A') {
-        echo 'Aがたです';
-    }   elseif($blood == 'B'){
-        echo 'Bがたです';
-    
-    }   elseif($blood == 'O'){
-        echo 'Oがたです';
-    
-    }   elseif($blood == 'AB'){
-        echo 'ABがたです';
-    
-    }   else {
-        echo 'A/B/O/ABから選択してください';
-    }
+   $name = 'taro';
+   $password = 'pass';
+
+   if (1 === $name) {
+       echo 'パスワードが間違っています';
+   } else {
+       echo '名前が間違っています';
+   }
+
 
 ?>
