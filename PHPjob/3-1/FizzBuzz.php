@@ -1,17 +1,15 @@
 <?php
-  $num = 0;
+$i=0
 
-  while($num < 200){
-      echo $num;
-      $num ++; 
-    
-      if($num == 101) {
-          break;
-      }
-      echo $num;
-      echo '<br>';
-      $num++;
-
+  for ($i = 1; $i <= 100; $i++) {
+    if($i % 3 === 0) && ($i % 5 === 0) {
+      echo 'FizzBuzz!!' . "<br>";
+    } elseif ($i % 3 === 0) {
+      echo 'Fizz!' . "<br>";
+    } elseif ($i % 5 === 0) {
+      echo 'Buzz!' . "<br>";
+    } else {
+      echo $i . "<br>";
+    }
   }
-
 ?>
