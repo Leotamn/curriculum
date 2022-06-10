@@ -1,11 +1,5 @@
 <?php
-   $num = 0;
-
-   while($num < 300) {
-       echo $num;
-       $num++;
-       if($num == 101) {
-           break;
-       }
-   }
+   $countries = ["America", "Japan", "China", "Korea"];
+   var_dump($countries);
+   
 ?>
