@@ -1,11 +1,10 @@
 <?php
-
    
-   function sayHi($name = "goto") {
-      $myname = "php";
-      return "Hi!".$name."from".$myname;
-   }
+   function getRectangularArea($length , $width , $height) {
+      $area = $length * $width * $height;
+      print "直方体の面積は".$area."だよ。";
+   } 
 
-   echo sayHi();
+   getRectangularArea(5,10,8);
 
 ?>
