@@ -1,17 +1,11 @@
 <?php
-   $fruits = ["apple" => "りんご", "orange" => "みかん", "grape" => "ぶどう"];
-   $fruits = ["peach" => "もも" ];
-
-  
-
-
-   array(4) {
-      ["apple"] => string(9) "りんご"
-      ["orange"] => string(9) "みかん"
-      ["grape"] => string(9) "ぶどう"
-      ["peach"] => string(9) "もも"
-  }
+   $fruits = ["apple" => "といったらりんご","orange" => "といったらみかん","peach" => "といったらもも"];
    
-   var_dump($fruits);
-  
+   foreach ($fruits as $key => $value) {
+      echo $key;
+      echo $value;
+      echo "<br>";
+   }
+
+
 ?>
