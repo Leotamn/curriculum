@@ -4,13 +4,13 @@
     background-color: #141f40;
 }
 
-.box-parent {
+/*.box-parent {
     width: 160px;
     height: 60px;
     background-color: white;
     display: flex;
     position: absolute;top: 20px;right: 20px;left: 220px;bottom: 20px;
-}
+}*/
 
 .box-red {
         display: flex;
@@ -25,7 +25,7 @@
     width: 40px;
     height: 40px;
     justify-content: space-around;
-    background-color: #8c2727;
+    background-color: #a9004b;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -35,14 +35,14 @@
     width: 40px;
     height: 40px;
     justify-content: space-around;
-    background-color:  #8c2727;
+    background-color:  #a9004b;
     margin-right: 10px;
 }
 .box-3 {
     width: 40px;
     height: 40px;
     justify-content: space-around;
-    background-color: #8c2727;
+    background-color: #a9004b;
 }
 
 .left {
@@ -59,11 +59,11 @@
     background-color: #8c2727;
 }
 
-.flexbox {
+/*.flexbox {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-}
+}*/
 
 .box1 {
     width: 140px;
