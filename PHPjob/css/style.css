@@ -13,10 +13,12 @@
 }*/
 
 .box-red {
-        display: flex;
-        align-items: flex-end;
-        margin-top: auto;
-        margin-bottom: auto;
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;top: 20px;right: 20px;left: 220px;bottom: 20px;
     }
     
 
@@ -26,8 +28,10 @@
     height: 40px;
     justify-content: space-around;
     background-color: #a9004b;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -36,13 +40,17 @@
     height: 40px;
     justify-content: space-around;
     background-color:  #a9004b;
+    margin-top: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 .box-3 {
     width: 40px;
     height: 40px;
     justify-content: space-around;
     background-color: #a9004b;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .left {
