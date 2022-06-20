@@ -10,14 +10,18 @@ echo '<br>';
 echo $fruits[2];
 echo '<br>';*/
 
-function getprintPrice($fruits,$count) {
-    $price = $fruits * $count;
-    print ".$fruits.は".$price."円です。";
+$fruits = array(
+    'りんご' => '300',
+    'みかん' => '150',
+    'もも' => '3000',
+);
+
+
+foreach( $fruits as $key => $value) {
+    echo $key;
+    echo "は";
+    echo $value;
+    echo "円です。<br>";
+
 }
-
-getprintPrice(300,1);
-getprintPrice(150,1);
-getprintPrice(3000,1);
-
-
 ?>
