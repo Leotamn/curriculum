@@ -1,7 +1,7 @@
 <form action="result.php" method="post">
   名前：<input type="text" name="my_name" />
   <br>
-  メールアドレス:<input type="address" name="address" />
+  メールアドレス:<input type="text" name="address" />
   <br>
   パスワード：<input type="password" name="password" />
   <br>
