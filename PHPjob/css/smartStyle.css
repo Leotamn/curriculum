@@ -1,19 +1,19 @@
-@media screen and (max-width: 479px){
- 
-}
-
 .contents {
-    float: none;
+    width:50%
 }
 
-img {
+@media screen and (max-width: 479px){
+    .contents {
+        width:200px;
 
-    max-width: 100%;
-    height: auto
-;}
+    }
+}
+
+
+
 
 .header {
-    height: 100px;
+    height: 200px;
     
 }
 
@@ -24,6 +24,19 @@ img {
     background-color: white;
     position: absolute;top: auto;right: 70px;left: 70px;bottom: auto;
 }
+
+
+.left {
+    width: 200px;
+    height: 150px;
+    
+}
+
+.right {
+    width: 200px;
+    height: 210px;
+}
+
 
 .box1 {
     width: 140px;
@@ -57,4 +70,9 @@ img {
     margin-right: 30px;
     border: solid 5px white
 
+}
+
+.bottom {
+    width: 200px;
+    height: 100px;
 }
