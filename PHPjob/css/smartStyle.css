@@ -1,40 +1,49 @@
-.contents {
-    width:50%
-}
-
 @media screen and (max-width: 479px){
     .contents {
-        width:200px;
+        width:100%;
+        display: block;
+      
 
     }
-}
-
-
-
 
 .header {
+    width: 200px;
     height: 200px;
-    
 }
-
 
 .box-red {
     width: 60px;
     height: 160px;
     background-color: white;
-    position: absolute;top: auto;right: 70px;left: 70px;bottom: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    right: 70px;
+    left: 70px;
+    bottom: auto;
+
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
 
 .left {
     width: 200px;
     height: 150px;
-    
+
 }
 
+
 .right {
+    display: block;
     width: 200px;
     height: 210px;
+    justify-content: space-around;
+    
+   
 }
 
 
@@ -42,10 +51,10 @@
     width: 140px;
     height: 40px;
     background-color: #ff863f;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
+    top: 20px;
+    bottom: 5px;
+    left: 30px;
+    right: 30px;
     border: solid 5px white
 }
 
@@ -53,10 +62,10 @@
     width: 140px;
     height: 40px;
     background-color: #ff863f;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
+    top: 5px;
+    bottom: 5px;
+    left: 30px;
+    right: 30px;
     border: solid 5px white
 }
 
@@ -64,15 +73,18 @@
     width: 140px;
     height: 40px;
     background-color: #ff863f;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    top: 5px;
+    bottom: 20px;
+    left: 30px;
+    right: 30px;
     border: solid 5px white
 
 }
 
-.bottom {
+.footer {
     width: 200px;
     height: 100px;
+    display: block;
+    margin-top: ;
+}
 }
