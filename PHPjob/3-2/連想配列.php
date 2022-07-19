@@ -1,26 +1,19 @@
-<pre>
+
 <?php
-/*$fruits = ["apple" => "りんご","orange" => "みかん","peach" => "もも"];
 
-/*echo $fruits[0];
-echo '<br>';
 
-echo $fruits[1];
-echo '<br>';
+$fruits = ["りんご"=> 300 , "みかん"=> 150 , "もも" => 3000];
 
-echo $fruits[2];
-echo '<br>';*/
-
-function name_price($name, $price)
-{
-  return("$name の値段は $price 円です。");
+function getPrice($unitprice,$quantity) {
+  $price = $unitprice * $quantity;
+  return $price;
 }
 
-$ary1 = array("りんご", "みかん", "もも");
-$ary2 = array(300, 150, 3000);
+foreach($fruits as $key => $value){
 
-print_r(array_map("name_price", $ary1, $ary2));
+  echo $key."は".getPrice($value,$num)."円です。"."<br>";
+}
+
 
 
 ?>
-</pre>
