@@ -11,7 +11,11 @@ function getPrice($unitprice,$quantity) {
 
 foreach($fruits as $key => $value){
 
-  echo $key."は".getPrice($value,$num)."円です。"."<br>";
+  echo $key;
+  echo "は";
+  echo getPrice($value,$num).;
+  echo "円です。";
+  echo "<br>";
 }
 
 
