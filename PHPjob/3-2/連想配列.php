@@ -13,7 +13,7 @@ foreach($fruits as $key => $value){
 
   echo $key;
   echo "は";
-  echo getPrice($value,$num).;
+  echo getPrice($value,1);
   echo "円です。";
   echo "<br>";
 }
