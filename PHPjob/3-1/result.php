@@ -1,7 +1,8 @@
-<form action="result.php" method="post">
-    お名前：<input type="text" name="my name" /><br>
-    ご希望商品：
-    <input type="radio" name="select" value="A賞">A賞
-    <input type="radio" name="select" value="B賞">B賞
-    <input type="radio" name="select" value="C賞">C賞<br>   
-    個数：<input type="select" name="many" value="ikko">
+<?php
+$my_name = $_POST['my_name'];
+$present = $_POST['present'];
+$number = $_POST['number'];
+?>
+<p>お名前：<?php echo $my_name; ?></p>
+<p>ご希望商品:<?php echo $present; ?></p>
+<p>個数：<?php echo $number; ?></p>
