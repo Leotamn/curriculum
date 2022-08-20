@@ -1,6 +1,6 @@
 <?php
 $my_name = $_POST['my_name'];
-$present = $_POST['present'];
+$present = $_POST['select'];
 $number = $_POST['number'];
 ?>
 <p>お名前：<?php echo $my_name; ?></p>
