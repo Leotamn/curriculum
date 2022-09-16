@@ -1,9 +1,9 @@
 <?php
  
- $my_name = $_POST['my_name'];
- $number = $POST['number'];
- $language = $POST['language'];
- $command = $POST['command'];
+ $my_name = array();
+ $number = array();
+ $language = array();
+ $command = array();
  
 
 ?>
