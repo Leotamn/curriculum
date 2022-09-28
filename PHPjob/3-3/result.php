@@ -2,13 +2,17 @@
 
 $number = $POST['number'];
 
+
 ?>
 
 <p><?php echo date("Y-m-d"); ?>の運勢は</p>
-<p>選ばれた数字は<?php echo $number; ?></p>
+<p>選ばれた数字は<?php echo $num; ?></p>
+<p>運勢は<?php echo $res;?>
 
 <?php
-$str_split($string [,$split_length = 1])
+$array = str_split($number);
+$keys = array_rand($array, 1);
+$num = $array[$keys];
 
 $lots = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 if (isset($_POST['number'])) {
