@@ -7,7 +7,7 @@ $number = $POST['number'];
 
 <p><?php echo date("Y-m-d"); ?>の運勢は</p>
 <p>選ばれた数字は<?php echo $num; ?></p>
-<p>運勢は<?php echo $res;?>
+<p>運勢は<?php echo $res;?></p>
 
 <?php
 $array = str_split($number);
