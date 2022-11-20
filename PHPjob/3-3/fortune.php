@@ -6,7 +6,8 @@
     <body>
         <h1>0～9の番号を使って好きな数字の羅列を入力してみよう</h1>
         <form action="result.php" method="POST">
-            <input type="submit" name="number" value="占う">
+            <p><input type="number" name="number" value="占う"></p>
+            <p>input type="submit"></p>
         </form>
     </body>
 </html>

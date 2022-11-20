@@ -58,6 +58,8 @@ if (isset($_POST['number'])) {
            $num = 9;
            break; 
     }
+   }
+   
 
 
 ?>
