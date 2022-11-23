@@ -1,14 +1,7 @@
 <?php
 
-$number = $POST['number'];
+var_dump($_POST)
 
-?>
-
-<p><?php echo date("Y-m-d"); ?>の運勢は</p>
-<p>選ばれた数字は<?php echo $num; ?></p>
-<p>運勢は<?php echo $res;?></p>
-
-<?php
 $array = str_split($number);
 $keys = array_rand($array, 1);
 $num = $array[$keys];
@@ -59,10 +52,13 @@ if (isset($_POST['number'])) {
            break; 
     }
    }
-   
-
-
 ?>
+
+
+
+<p><?php echo date("Y-m-d"); ?>の運勢は</p>
+<p>選ばれた数字は<?php echo $num; ?></p>
+<p>運勢は<?php echo $res;?></p>
 
 
 
