@@ -2,12 +2,12 @@
 
 <?php
  
- $my_name =$_POST['my_name'];
- $number = $_POST['number'];
- $language = $_POST['language'];
- $command = $_POST['command'];
+ $my_name =array();
+ $number = array();
+ $language = array();
+ $command = array();
  
-
+?>
 
 <p>お疲れ様です<?php echo $my_name ?>さん</p>
 
@@ -49,4 +49,3 @@ foreach($command as $value) { ?>
 
 </form>
 
-?>
