@@ -2,10 +2,8 @@
 
 <?php
  
- $my_name =array();
- $number = array();
- $language = array();
- $command = array();
+ $my_name = $_POST['my_name'];
+ 
  
 ?>
 
