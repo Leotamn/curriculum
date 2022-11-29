@@ -1,5 +1,14 @@
 <?php
 
+$my_name = $_POST['my_name'];
+$number = $_POST['number'];
+$language = $_POST['language'];
+$command = $_POST['command'];
+
+?>
+
+<?php
+
 if ($number == $answer1) {
     $result1 = "正解！"; 
 } else {
@@ -7,14 +16,14 @@ if ($number == $answer1) {
 }
 
 
-if ($number == $answer1) {
+if ($number == $answer2) {
     $result2 = "正解！"; 
 } else {
     $result2 = "残念・・・";
 }
 
 
-if ($number == $answer1) {
+if ($number == $answer3) {
     $result3 = "正解！"; 
 } else {
     $result3 = "残念・・・";

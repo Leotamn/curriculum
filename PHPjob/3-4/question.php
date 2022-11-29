@@ -7,6 +7,8 @@
  
 ?>
 
+<input type = "hidden" name="my_name" value="<?php echo $my_name;?>">
+
 <p>お疲れ様です<?php echo $my_name ?>さん</p>
 
 <h2>①ネットワークのポート番号は何番？</h2>
@@ -14,10 +16,10 @@
 $number = [80 , 22 , 20 , 21];
 
 foreach($number as $value) {  ?>
-    <input type = "radio">
+    <input type = "radio" name = "number" value = "<php echo $value; ?>">
     <?php echo $value;
-}
-?>
+    }
+    ?>
 
 
 <h2>②Webページを作成するための言語は？</h2>
@@ -25,10 +27,10 @@ foreach($number as $value) {  ?>
 $language = ["PHP" , "Python" , "JAVA" , "HTML"];
 
 foreach($language as $value) { ?>
-    <input type = "radio">
+    <input type = "radio" name = "language" value = "<?php echo $value; ?>">
     <?php echo $value;
-}
-?>
+    }
+    ?>
 
 
 <h2>③MySQLで情報を取得するためのコマンドは？</h2>
@@ -36,10 +38,10 @@ foreach($language as $value) { ?>
 $command = ["join" , "select" , "insert" , "update"];
 
 foreach($command as $value) { ?>
-    <input type = "radio">
+    <input type = "radio" name = "command" value = "<?php echo $value; ?>">
     <?php echo $value;
-}
-?>
+    }
+    ?>
 <br>
 
 
