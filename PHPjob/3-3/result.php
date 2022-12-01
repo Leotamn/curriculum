@@ -48,7 +48,7 @@ if (isset($_POST['number'])) {
            $num = 8;
            break; 
         case 9;
-           $res = '吉';
+           $res = '大吉';
            $num = 9;
            break; 
     }
