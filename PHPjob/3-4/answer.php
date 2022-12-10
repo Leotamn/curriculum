@@ -9,21 +9,21 @@ $command = $_POST['command'];
 
 <?php
 
-if ($number == $answer1) {
+if ($number == 80 ) {
     $result1 = "正解！"; 
 } else {
     $result1 = "残念・・・";
 }
 
 
-if ($number == $answer2) {
+if ($number ==  'PHP' ) {
     $result2 = "正解！"; 
 } else {
     $result2 = "残念・・・";
 }
 
 
-if ($number == $answer3) {
+if ($number == 'join' ) {
     $result3 = "正解！"; 
 } else {
     $result3 = "残念・・・";
