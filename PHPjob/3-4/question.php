@@ -8,9 +8,6 @@
 ?>
 
 <input type = "hidden" name="my_name" value="<?php echo $my_name;?>">
-<input type = "hidden" name="number" value="<?php echo $number;?>">
-<input type = "hidden" name="language" value="<?php echo $language;?>">
-<input type = "hidden" name="command" value="<?php echo $command;?>">
 
 
 
@@ -20,6 +17,10 @@
 <?php
 $number = [80 , 22 , 20 , 21];
 $answer1 = $number[0];
+$answer1 = $number[1];
+$answer1 = $number[2];
+$answer1 = $number[3];
+
 
 foreach($number as $value) {  ?>
     <input type = "radio" name = "number" value = "<?php echo $value; ?>">
@@ -32,6 +33,9 @@ foreach($number as $value) {  ?>
 <?php
 $language = ["PHP" , "Python" , "JAVA" , "HTML"];
 $answer2 = $language[0];
+$answer2 = $language[1];
+$answer2 = $language[2];
+$answer2 = $language[3];
 
 foreach($language as $value) { ?>
     <input type = "radio" name = "language" value = "<?php echo $value; ?>">
@@ -44,6 +48,11 @@ foreach($language as $value) { ?>
 <?php
 $command = ["join" , "select" , "insert" , "update"];
 $answer3 = $command[0];
+$answer3 = $command[1];
+$answer3 = $command[2];
+$answer3 = $command[3];
+
+
 
 foreach($command as $value) { ?>
     <input type = "radio" name = "command" value = "<?php echo $value; ?>">
@@ -53,6 +62,8 @@ foreach($command as $value) { ?>
 <br>
 
 <input type = "hidden" name = "answer1" value = "<?php echo $answer1;?>">
+<input type = "hidden" name = "answer2" value = "<?php echo $answer2;?>">
+<input type = "hidden" name = "answer3" value = "<?php echo $answer3;?>">
 <input type="submit" value="同意する"/>
 
 </form>
