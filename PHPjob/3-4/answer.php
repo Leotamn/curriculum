@@ -14,9 +14,11 @@ $answer = $_POST['answer'];
 
 function judgment ($selected, $collect) {
     if ($result1 == 80 , $result2 == 'PHP' , $result3 == 'join' ){
-        $result = "正解！";
+        echo "正解！";
+        return;
     } eise {
-        $result = "残念・・・";
+        echo = "残念・・・";
+        return
     }
 }
 
