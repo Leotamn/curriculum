@@ -5,28 +5,19 @@ $number = $_POST['number'];
 $language = $_POST['language'];
 $command = $_POST['command'];
 
+$question = $_POST['question'];
+$answer = $_POST['answer'];
+
 ?>
 
 <?php
 
-if ($number == 80 ) {
-    $result1 = "正解！"; 
-} else {
-    $result1 = "残念・・・";
-}
-
-
-if ($number ==  'PHP' ) {
-    $result2 = "正解！"; 
-} else {
-    $result2 = "残念・・・";
-}
-
-
-if ($number == 'join' ) {
-    $result3 = "正解！"; 
-} else {
-    $result3 = "残念・・・";
+function judgment ($selected, $collect) {
+    if ($result1 == 80 , $result2 == 'PHP' , $result3 == 'join' ){
+        $result = "正解！";
+    } eise {
+        $result = "残念・・・";
+    }
 }
 
 ?>
