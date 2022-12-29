@@ -1,6 +1,10 @@
 <?php
 
 $my_name = $_POST['my_name'];
+$number = $_POST['number'];
+$language = $_POST['language'];
+$command = $_POST['command'];
+
 $answer1 = $_POST['answer1'];
 $answer2 = $_POST['answer2'];
 $answer3 = $_POST['answer3'];
