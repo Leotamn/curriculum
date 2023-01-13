@@ -28,11 +28,47 @@ function judgment ($selected, $collect) {
 <p><?php echo $my_name;?>さんの結果は・・・？</p>
 
 <p>①の答え</p>
-<?php echo $answer1; ?>
+<?php
+
+function judgment ($number, $answer1) {
+    if ($number == $answer1 ){
+        echo "正解";
+        return;
+    } else {
+        echo  "残念・・・";
+        return;
+    }
+}
+
+?>
 
 <p>②の答え</p>
-<?php echo $answer2; ?>
+<?php
+
+function judgment ($language, $answer2) {
+    if ($lamguage == $answer2 ){
+        echo "正解";
+        return;
+    } else {
+        echo  "残念・・・";
+        return;
+    }
+}
+
+?>
 
 
 <p>③の答え</p>
-<?php echo $answer3; ?>
+<?php
+
+function judgment ($command, $answer3) {
+    if ($command == $answer3 ){
+        echo "正解";
+        return;
+    } else {
+        echo  "残念・・・";
+        return;
+    }
+}
+
+?>
