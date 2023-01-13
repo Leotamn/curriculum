@@ -11,30 +11,30 @@ $answer3 = $_POST['answer3'];
 
 ?>
 
+<p><?php echo $my_name;?>さんの結果は・・・？</p>
+
+
 <?php
 
 function judgment ($selected, $collect) {
     if ($selected == $collect ){
-        echo "正解";
+        print "正解";
         return;
     } else {
-        echo  "残念・・・";
+        print  "残念・・・";
         return;
     }
 }
 
 
-
-<p><?php echo $my_name;?>さんの結果は・・・？</p>
-
 <p>①の答え</p>
-getjudgement ($number, $answer1);
+getJudgement ($number, $answer1);
 
 <p>②の答え</p>
-getjudgement ($language, $answer2);
+getJudgement ($language, $answer2);
 
 
 <p>③の答え</p>
-getjudgement ($command, $answer3);
+getJudgement ($command, $answer3);
 
 ?>
