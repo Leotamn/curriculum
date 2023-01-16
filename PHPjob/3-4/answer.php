@@ -16,25 +16,25 @@ $answer3 = $_POST['answer3'];
 
 <?php
 
-function judgment ($selected, $collect) {
+function getJudgment ($selected, $collect) {
     if ($selected == $collect ){
-        print "正解";
+        echo "正解";
         return;
     } else {
-        print  "残念・・・";
+        echo  "残念・・・";
         return;
     }
 }
 
+?>
+
 
 <p>①の答え</p>
-getJudgement ($number, $answer1);
+function getJudgement ($number, $answer1);
 
 <p>②の答え</p>
-getJudgement ($language, $answer2);
+function getJudgement ($language, $answer2);
 
 
 <p>③の答え</p>
-getJudgement ($command, $answer3);
-
-?>
+function getJudgement ($command, $answer3);
