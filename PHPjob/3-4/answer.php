@@ -30,11 +30,11 @@ function getJudgment ($selected, $collect) {
 
 
 <p>①の答え</p>
-function getJudgement ($number, $answer1);
+<?php getJudgment ($number, $answer1); ?>
 
 <p>②の答え</p>
-function getJudgement ($language, $answer2);
+<?php getJudgment ($language, $answer2); ?>
 
 
 <p>③の答え</p>
-function getJudgement ($command, $answer3);
+<?php getJudgment ($command, $answer3); ?>
