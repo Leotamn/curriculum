@@ -1,15 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="php/answer.php">
+</head>
+
+
+<body>
 <form action = "answer.php" method = "POST">
 
-<?php
- 
- $my_name = $_POST['my_name'];
- 
-
-?>
+<?php $my_name = $_POST['my_name']; ?>
 
 <input type = "hidden" name="my_name" value="<?php echo $my_name;?>">
-
-
 
 <p>お疲れ様です<?php echo $my_name ?>さん</p>
 
@@ -60,3 +65,7 @@ foreach($command as $value) { ?>
 
 </form>
 
+<body background-color="#a9a9a9" text="#ffffff">
+</body>
+
+</html>
