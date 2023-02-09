@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+<body>
+
 <?php
 
 $my_name = $_POST['my_name'];
@@ -38,3 +48,8 @@ function getJudgment ($selected, $collect) {
 
 <p>③の答え</p>
 <?php getJudgment ($command, $answer3); ?>
+
+<body background-color="#a9a9a9" text="#ffffff">
+</body>
+
+</html>
