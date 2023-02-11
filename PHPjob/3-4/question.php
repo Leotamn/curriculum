@@ -5,12 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>2章チェックテスト</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 
 
 <body>
+  <div style="text-align: center">
     <form action = "answer.php" method = "POST">
     <?php $my_name = $_POST['my_name']; ?>  
     <input type = "hidden" name="my_name" value="<?php echo $my_name;?>">
@@ -52,14 +53,13 @@
       <?php echo $value;
       }
     ?>
-<br>
+    <br>
 
-<input type = "hidden" name = "answer1" value = "<?php echo $answer1;?>">
-<input type = "hidden" name = "answer2" value = "<?php echo $answer2;?>">
-<input type = "hidden" name = "answer3" value = "<?php echo $answer3;?>">
-<input type="submit" value="同意する"/>
-
-</form>
+    <input type = "hidden" name = "answer1" value = "<?php echo $answer1;?>">
+    <input type = "hidden" name = "answer2" value = "<?php echo $answer2;?>">
+    <input type = "hidden" name = "answer3" value = "<?php echo $answer3;?>">
+    <input type="submit" value="同意する"/>
+   </div>
 
 </body>
 

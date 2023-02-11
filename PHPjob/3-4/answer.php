@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>2章チェックテスト</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 
+<body>
 <?php
-
 $my_name = $_POST['my_name'];
 $number = $_POST['number'];
 $language = $_POST['language'];
@@ -18,14 +18,12 @@ $command = $_POST['command'];
 $answer1 = $_POST['answer1'];
 $answer2 = $_POST['answer2'];
 $answer3 = $_POST['answer3'];
-
 ?>
 
 <p><?php echo $my_name;?>さんの結果は・・・？</p>
 
 
 <?php
-
 function getJudgment ($selected, $collect) {
     if ($selected == $collect ){
         echo "正解";
@@ -35,7 +33,6 @@ function getJudgment ($selected, $collect) {
         return;
     }
 }
-
 ?>
 
 
