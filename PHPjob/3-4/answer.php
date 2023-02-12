@@ -9,44 +9,45 @@
 </head>
 
 <body>
-<?php
-$my_name = $_POST['my_name'];
-$number = $_POST['number'];
-$language = $_POST['language'];
-$command = $_POST['command'];
+  <div class="answer">
+    <?php
+    $my_name = $_POST['my_name'];
+    $number = $_POST['number'];
+    $language = $_POST['language'];
+    $command = $_POST['command'];
 
-$answer1 = $_POST['answer1'];
-$answer2 = $_POST['answer2'];
-$answer3 = $_POST['answer3'];
-?>
+    $answer1 = $_POST['answer1'];
+    $answer2 = $_POST['answer2'];
+    $answer3 = $_POST['answer3'];
+    ?>
 
-<p><?php echo $my_name;?>さんの結果は・・・？</p>
-
-
-<?php
-function getJudgment ($selected, $collect) {
-    if ($selected == $collect ){
-        echo "正解";
-        return;
-    } else {
-        echo  "残念・・・";
-        return;
-    }
-}
-?>
+    <p><?php echo $my_name;?>さんの結果は・・・？</p>
 
 
-<p>①の答え</p>
-<?php getJudgment ($number, $answer1); ?>
+    <?php
+     function getJudgment ($selected, $collect) {
+       if ($selected == $collect ){
+          echo "正解";
+          return;
+        } else {
+          echo  "残念・・・";
+          return;
+        }
+     }
+    ?>
 
-<p>②の答え</p>
-<?php getJudgment ($language, $answer2); ?>
+
+    <p>①の答え</p>
+    <?php getJudgment ($number, $answer1); ?>
+
+    <p>②の答え</p>
+    <?php getJudgment ($language, $answer2); ?>
 
 
-<p>③の答え</p>
-<?php getJudgment ($command, $answer3); ?>
+    <p>③の答え</p>
+    <?php getJudgment ($command, $answer3); ?>
 
-<body background-color="#a9a9a9" text="#ffffff">
+  </div>
 </body>
 
 </html>
