@@ -1,50 +1,50 @@
-body {
+.body {
     text-align:center;
     background-color:#808080;
     color:#ffffff;
 }
 
-h1 {
+.h1 {
     color:#ffffff;
     font-family:serif;
 
 }
 
-p {
+.p {
     color:#ffffff;
     font-family:serif;
 }
 
-queston {
+.queston {
     color:#ffffff;
     font-family:serif; 
 }
 
-name {
-    color:#ffffff;
-    font-family:serif; 
-    font-size:50%;
-}
-
-q1-2 {
+.name {
     color:#ffffff;
     font-family:serif; 
     font-size:50%;
 }
 
-q2-2 {
+.q1-2 {
     color:#ffffff;
     font-family:serif; 
     font-size:50%;
 }
 
-q3-2 {
+.q2-2 {
     color:#ffffff;
     font-family:serif; 
     font-size:50%;
 }
 
-answer {
+.q3-2 {
+    color:#ffffff;
+    font-family:serif; 
+    font-size:50%;
+}
+
+.answer {
     color:#ffffff;
     font-family:serif; 
 }
